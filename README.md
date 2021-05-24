@@ -15,8 +15,8 @@ Why WebSockets?
 How does it work?
 
   WebSockets initially establishes a handshake request between the server and client. This creates the realtime communication channel in which both the server and client are free to send messages to each other. 
-    - Server/Client can freely communicate as long as connections is maintained.
-    - The WebSockets server keeps tabs of all the clients connected to it => broadcasts messages recieved from client to all clients. 
+   - Server/Client can freely communicate as long as connections is maintained.
+   - The WebSockets server keeps tabs of all the clients connected to it => broadcasts messages recieved from client to all clients. 
     
 ## Sources:    
 - I utilized this blog post/video as my primary source for this weekend-spike: https://blog.logrocket.com/websockets-tutorial-how-to-go-real-time-with-node-and-react-8e4693fbf843/
